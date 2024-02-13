@@ -1,0 +1,19 @@
+{
+  "name": "v",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass sass/global.scss styles/raw/style.css --watch",
+    "purgecss": "purgecss --css styles/raw/style.css --content index.html scripts/*.js -o styles/cleaned/presentation.css",
+    "purgecssExp": "purgecss --css styles/raw/style.css --content experience.html  scripts/*.js -o styles/cleaned/experience.css",
+    "purgecssForm": "purgecss --css styles/raw/style.css --content  formation.html scripts/*.js -o styles/cleaned/formation.css"
+  },
+  "author": "Sarah Boisvert",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "jquery": "^3.7.1",
+    "purgecss": "^5.0.0"
+  }
+}

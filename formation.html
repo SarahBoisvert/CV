@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sarah Boisvert Programmeuse-analyste</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles/cleaned/formation.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body class="max-width-body text-light bg-beige d-flex flex-column h-100">
+  <!-- Navbar -->
+  <nav class="main-nav bg-dark d-flex justify-content-center py-3">
+    <a href="index.html" class="text-light text-uppercase text-decoration-none">Présentation</a>
+    <a href="experience.html" class="text-light text-uppercase text-decoration-none ms-3">Expérience</a>
+    <a href="formation.html" class="text-light text-uppercase text-decoration-none ms-3">Formation</a>
+  </nav>
+  <!-- Global Container -->
+
+  <div class="container flex-grow-1 flex-shrink-0 pb-5">
+    <p class="text-center text-dark-1 mb-0 mt-4 fs-5">
+      Voici mon parcours de formation.
+    </p>
+    <h1 class="text-center text-dark-1 mb-0 playfair-font fs-1">
+      Je m'intéresse à beaucoup de choses...
+    </h1>
+
+    <!-- Accordion -->
+    <div class="accordion accordion-flush" id="accordionParent">
+      <div class="text-end">
+        <button class="btn btn-adapte mb-3" type="button" data-bs-toggle="collapse" data-bs-target=".accordion-collapse"
+          aria-expanded="false" aria-controls="allPanels">
+          <span class="fs-5">Développer tout</span>
+        </button>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panel-formation" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            <span class="playfair-font fs-1">FORMATION </span>
+
+          </button>
+        </h2>
+        <div id="panel-formation" class="accordion-collapse allPanels collapse">
+          <div class="accordion-body">
+            <ul class="list-group">
+              <li class="list-group-item p-1 d-flex justify-content-between">
+                <span class="fs-5">
+                  2010: Analyste-programmeur en orienté objet - CEGEP Bois-de-Boulogne
+                </span>
+              </li>
+              <li class="list-group-item p-1 d-flex justify-content-between">
+                <span class="fs-5"> 1999: Technique d’ébénisterie et menuiserie architecturale - CEGEP Victoriaville
+                </span>
+              </li>
+              <li class="list-group-item p-1 d-flex justify-content-between">
+                <span class="fs-5">
+                  1994: BAC en enseignement non complété (48 crédits acquis) - Université McGill
+                </span>
+              </li>
+              <li class="list-group-item p-1 d-flex justify-content-between">
+                <span class="fs-5">
+                  1991: DEC en sciences humaines - CEGEP de l’Abitibi-Témiscaminque
+                </span>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panel-formation-continue" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+            <span class="playfair-font fs-1">FORMATION CONTINUE</span>
+          </button>
+        </h2>
+        <div id="panel-formation-continue" class="accordion-collapse allPanels">
+          <div class="accordion-body">
+            <ul class="list-group">
+              <li class="list-group-item p-1 d-flex justify-content-between">
+                <span class="fs-5">
+                  2024: Create Full Stack Web Applications with Angular, ASP.NET Core Web API
+                </span>
+              </li>
+              <li class="list-group-item p-1 d-flex justify-content-between">
+                <span class="fs-5">
+                  2024: Complete Angular Course 2023 - Master Angular in only 6 day
+                </span>
+              </li>
+              <li class="list-group-item p-1 d-flex justify-content-between">
+                <span class="fs-5">
+                  2023: Le cloud d'Azure: maîtriser les fondamentaux par la pratique
+                </span>
+              </li>
+              <li class="list-group-item p-1 d-flex justify-content-between">
+                <span class="fs-5">
+                  2023: Build ASP.NET Core Web API - Scratch To Finish (.NET 7 API)
+                </span>
+              </li>
+              <li class="list-group-item p-1 d-flex justify-content-between">
+                <span class="fs-5">
+                  2019: Salesforce - Développement de solution Cloud - CEGEP Bois-de-Boulogne
+                </span>
+              </li>
+              <li class="list-group-item p-1 d-flex justify-content-between">
+                <span class="fs-5">
+                  2019: Big Data - Gestion et traitement des données massives (Niveau 2) - CEGEP Bois-de-Boulogne
+                </span>
+              </li>
+              <li class="list-group-item p-1 d-flex justify-content-between">
+                <span class="fs-5">
+                  2018: Big Data - Gestion et traitement des données massives (Niveau 1) - CEGEP Bois-de-Boulogne
+                </span>
+              </li>
+              <li class="list-group-item p-1 d-flex justify-content-between">
+                <span class="fs-5">
+                  2015: Planification et Gestion des exigences d’affaires - Groupe Dynamite
+                </span>
+              </li>
+              <li class="list-group-item p-1 d-flex justify-content-between">
+                <span class="fs-5">
+                  2013: Intro to ConnectShip Toolkit - ConnectShip Tulsa OK
+                </span>
+              </li>
+              <li class="list-group-item p-1 d-flex justify-content-between">
+                <span class="fs-5">
+                  2012: Cours avancé ASP.NET - Cégep Maisonneuve
+                </span>
+              </li>
+              <li class="list-group-item p-1 d-flex justify-content-between">
+                <span class="fs-5">
+                  1992: Immersion en Anglais langue seconde
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="scripts/bootstrap.bundle.js"></script>
+</body>
+
+</html>
